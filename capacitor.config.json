@@ -1,0 +1,18 @@
+{
+  "appId": "com.custom.myapp",
+  "appName": "Phone Lock",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": false,
+      "style": "DARK",
+      "backgroundColor": "#0d0d12"
+    }
+  }
+}

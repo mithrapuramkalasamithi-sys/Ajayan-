@@ -1,0 +1,17 @@
+{
+  "name": "phone-lock",
+  "version": "1.0.0",
+  "description": "Phone Lock - Ad-Free Android App built with PRO APK Builder",
+  "private": true,
+  "scripts": {
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
